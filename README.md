@@ -14,5 +14,6 @@ How To Use:
 * click "Run Internet Noise"
 
 License MIT
-2017, Sean Pierce
-_Sean Pierce is a Jr Dev working in Portland, OR._
+2017, Sean Pierce  
+
+_Sean Pierce is a programming student in Portland, OR._
