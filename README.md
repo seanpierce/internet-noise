@@ -13,7 +13,8 @@ How To Use:
 * Visit https://seanpierce.github.io/internet-noise
 * click "Run Internet Noise"
 
-<kbd><img src="screen-shot.png"></kbd>
+_screen shot_
+<kbd><img src="screen-shot.png" alt="screen shot of internet-noise by Sean Pierce"></kbd>
 
 License MIT
 2017, Sean Pierce  
