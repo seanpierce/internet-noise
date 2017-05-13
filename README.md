@@ -7,7 +7,7 @@ This project was inspired by Dan Schultz's [Internet Noise generator](https://sl
 For a more secure browsing experience you could:
 * Use [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en)
 * Use a [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
-* Accelerate the final moments of late-stage capitalism and overthrow the oligarchy.
+* Overthrow the oligarchy.
 
 How To Use:
 * Visit https://seanpierce.github.io/internet-noise
