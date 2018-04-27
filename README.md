@@ -13,6 +13,8 @@ How To Use:
 * Visit https://seanpierce.github.io/internet-noise
 * click "Run Internet Noise"
 
+The app will open a new window and perform a new search, or visit a new page every 6-8 seconds in the background while you browse.
+
 _screen shot_  
 <kbd><img src="screen-shot.png" alt="screen shot of internet-noise by Sean Pierce"></kbd>
 
