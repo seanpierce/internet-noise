@@ -1,13 +1,13 @@
-var noise_win;
+var noiseWindow;
 
 function startNoise() {
-  noise_win = window.open('https://www.google.com/search?btnI&q=filetype:html+cats');
+  noiseWindow = window.open('https://www.google.com/search?btnI&q=filetype:html+cats');
   function change_noise() {
-    a = nouns[Math.floor(Math.random()*nouns.length)];
-    b = nouns[Math.floor(Math.random()*nouns.length)];
-    var url = "https://www.google.com/search?btnI&q=filetype:html+" + a + " " + b;
-    noise_win.location.href=url;
-    setTimeout(function() {
+    let a = nouns[Math.floor(Math.random()*nouns.length)];
+    let b = nouns[Math.floor(Math.random()*nouns.length)];
+    let url = "https://www.google.com/search?btnI&q=filetype:html+" + a + " " + b;
+    noiseWindow.location.href = url;
+    setTimeout(() => {
       change_noise();
     }, 8000);
   };
@@ -18,13 +18,7 @@ function stopNoise() {
   noise_win.close();
 }
 
-$(document).ready(function() {
-
-  $('#start').on('click', function() {
-    startNoise();
-  });
-  $('#stop').on('click', function() {
-    stopNoise();
-  });
-
+(() => {
+  documnet.getElementById('start').addEventListener("click", startNoise);
+  documnet.getElementById('stop').addEventListener("click", stopNoise);
 });
