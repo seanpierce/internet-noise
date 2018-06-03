@@ -19,6 +19,6 @@ function stopNoise() {
 }
 
 (() => {
-  documnet.getElementById('start').addEventListener("click", startNoise);
+  document.getElementById('start').addEventListener("click", startNoise);
   documnet.getElementById('stop').addEventListener("click", stopNoise);
 })();
