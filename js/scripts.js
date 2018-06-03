@@ -18,7 +18,5 @@ function stopNoise() {
   noise_win.close();
 }
 
-(() => {
-  document.getElementById('start').addEventListener("click", startNoise);
-  document.getElementById('stop').addEventListener("click", stopNoise);
-})();
+document.getElementById('start').addEventListener("click", startNoise);
+document.getElementById('stop').addEventListener("click", stopNoise);
